@@ -1,0 +1,38 @@
+$white_custom: white;
+
+
+/*Especificas para el login*/
+.container--remember-me{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.container--remember-me a{
+	font-size: 14px;
+	color: white;
+}
+.container--remember-me a:hover{
+	text-decoration: underline;
+}
+.container--social-media > div{
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.container--social-media > div > img{
+	width: 30px;
+	margin-right: 10px;
+}
+.container--register{
+	font-size: 14px;
+}
+.container--register a{
+	font-size: 16px;
+	color: $white_custom;
+	font-weight: bold;
+}
+.container--register a:hover{
+	text-decoration: underline;
+}

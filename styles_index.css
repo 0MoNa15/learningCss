@@ -1,0 +1,90 @@
+body{
+	background-color: #8F57FD;
+}
+
+.header__main{
+	margin-right: 30px;
+}
+
+.header__main:hover ul, ul:hover{
+	display: block;
+}
+
+.header__main li{
+	margin: 10px 0px;
+}
+
+.header__main li a{
+	color: white;
+	text-decoration: none;
+}
+
+.header__main li a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.header__main--profile{
+	display: flex;
+	align-items: center;
+}
+
+.header__main--profile img{
+	margin-right: 8px;
+	width: 30px;
+	height: 30px;
+}
+
+.header__main--profile p{
+	margin: 0px;
+	color: white;
+}
+
+.header__main ul{
+	display: none;
+	list-style: none;
+	padding: 0px;
+	position: absolute;
+	width: 100px;
+	text-align: right;
+	margin:0px 0px 0px -14px;
+}
+
+.search{
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 300px;
+	border-radius: 0px 0px 40px 40px;
+}
+
+.search__title{
+	color: white;
+	font-size: 25px;
+} 
+
+.input{
+	background-color: rgb(255, 255, 255, 0.1); 
+	border: 2px solid white;
+	border-radius: 25px;
+	font-family: 'Muli', sans-serif;
+	color: white;
+	font-size: 16px;
+	height: 50px;
+	padding: 0px 20px;
+	width: 70%;
+	outline: none;
+}
+
+::placeholder{
+	color: white;
+}
+
+.categories__title{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	padding-left: 30px;
+	width: 100%;
+
+}

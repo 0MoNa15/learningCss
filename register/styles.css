@@ -1,0 +1,14 @@
+/*Especificas para el registro*/
+.container--login{
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+}
+.container--login a{
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+}
+.container--login a:hover{
+	text-decoration: underline;
+}
