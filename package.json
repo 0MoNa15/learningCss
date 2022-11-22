@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Zorayda/learningCss#readme",
   "devDependencies": {
-    "@storybook/html": "^5.3.19"
+    "@storybook/html": "^6.5.13"
   }
 }
